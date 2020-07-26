@@ -10,7 +10,7 @@ void Color(int color)
 {
 	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), color);
 }
-
+//---
 class Bullet	//клас набій (куля, патрон)
 {
 private:
