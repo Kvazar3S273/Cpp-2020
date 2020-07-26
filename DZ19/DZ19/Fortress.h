@@ -14,7 +14,7 @@ void Color(int color)
 {
     SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), color);
 }
-//---change line 17 ++
+//---change line 17 +++
 
 class Shooter
 {
