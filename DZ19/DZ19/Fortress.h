@@ -10,11 +10,11 @@ void Ukr()	//створимо функцію, яка буде задавати формат укр. мови у ввід-вивід
     SetConsoleCP(1251);
     SetConsoleOutputCP(1251);
 }
-
 void Color(int color)
 {
     SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), color);
 }
+//---change line 17
 
 class Shooter
 {
